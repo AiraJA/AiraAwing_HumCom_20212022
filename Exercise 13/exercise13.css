@@ -1,0 +1,66 @@
+body{
+    margin: 20px;
+    padding: 5px;
+    height: 100vh;
+}
+.container{
+    margin: 10px;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box1{
+    background: rgb(165, 162, 162);
+    position: relative;
+    flex: 1;
+    max-width:auto;
+    margin: 10px;
+    height: 100px;
+}
+.box2{
+    background: rgb(100, 97, 97);
+    position: relative;
+    flex: 1;
+    max-width:auto;
+    margin: 10px;
+    height: 300px;
+}
+.box3{
+    background: rgb(165, 162, 162);
+    position: relative;
+    flex: 1;
+    max-width:auto;
+    margin: 10px;
+    height: 120px;
+}
+.box4{
+    background: rgb(187, 181, 181);
+    position: relative;
+    flex: 1;
+    max-width:auto;
+    margin: 10px;
+    height: 200px;
+}
+@media (max-width:768px) {
+    .box1{
+        flex: 100%;
+        max-width: 768;
+    }
+    .box2{
+        flex: 100%;
+        max-width: 768;
+    }
+    .box3{
+        flex: 100%;
+        max-width: 768;
+    }
+    .box4{
+        flex: 35%;
+        padding: 25%;
+        border-left: none;
+    }
+    
+}
